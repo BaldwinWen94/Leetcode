@@ -2,7 +2,11 @@
  * Created By Baldwin Wen
  */
 
-package leetcode;
+/*
+ * Created By Baldwin Wen
+ */
+
+package leetcode.n1_10;
 
 public class No2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

@@ -1,4 +1,12 @@
-package leetcode;
+/*
+ * Created By Baldwin Wen
+ */
+
+/*
+ * Created By Baldwin Wen
+ */
+
+package leetcode.n1_10;
 
 
 public class No5 {

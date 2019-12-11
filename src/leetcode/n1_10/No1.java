@@ -2,7 +2,11 @@
  * Created By Baldwin Wen
  */
 
-package leetcode;
+/*
+ * Created By Baldwin Wen
+ */
+
+package leetcode.n1_10;
 
 import java.util.HashMap;
 
