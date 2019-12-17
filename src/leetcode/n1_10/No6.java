@@ -10,7 +10,7 @@ package leetcode.n1_10;
 
 public class No6 {
     public String convert(String s, int numRows) {
-        if (numRows < 2){
+        if (numRows < 2) {
             return s;
         }
 

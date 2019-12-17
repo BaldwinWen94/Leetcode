@@ -15,9 +15,9 @@ import java.util.HashMap;
  */
 public class No1 {
     public int[] bruteForce(int[] nums, int target) {
-        for(int i = 0; i < nums.length; i++){
-            for(int j = i + 1; j < nums.length; j++){
-                if (nums[i] + nums[j] == target){
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] + nums[j] == target) {
                     return new int[]{i, j};
                 }
             }
@@ -31,11 +31,11 @@ public class No1 {
 
         int length = nums.length;
 
-        for(int i = 0; i < nums.length; i++){
+        for (int i = 0; i < nums.length; i++) {
             int minus = target - nums[i];
-            if(map.containsKey(minus)){
+            if (map.containsKey(minus)) {
                 return new int[]{i, map.get(minus)};
-            }else {
+            } else {
                 map.put(nums[i], i);
             }
         }
